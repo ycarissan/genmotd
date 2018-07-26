@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xml>
+   <man>
+Fichier de configuration de news
+Format xml
+Elements reconnus
+news debut du bloc news
+date date de la news au format date "+%Y-%m-%d %H:%m"
+txt texte à afficher
+man ce texte
+head l'entete du motd
+   </man>
+   <head>
+      <txt>
+Rocks 7.0 (Manzanita)
+Profile built 11:25 10-Jul-2018
+
+Kickstarted 12:46 10-Jul-2018
+      </txt>
+   </head>
+   <news>
+      <date> 2018-07-26 14:22
+      </date>
+      <txt>Python 3.6 is installed. Pour activer python3 :
+# scl enable rh-python36 bash
+      </txt>
+   </news>
+   <news>
+      <date> 2018-07-26 14:22
+      </date>
+      <txt>#new turbomole
+module load tm7.3_smp
+      </txt>
+   </news>
+   <news>
+      <date> 2018-07-26 14:22
+      </date>
+      <txt>brusel and muhka are reinstalled and back in the cluster.
+To send jobs on these nodes, please only once execute the following script to allow the nodes to access your home directory :
+# /share/programs/scripts/add_ssh_keys_external_nodes.sh 
+      </txt>
+   </news>
+</xml>
